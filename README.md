@@ -1,16 +1,13 @@
 # Hostname in Title – Chrome Extension
 
-To rozszerzenie dodaje hostname (np. example.com) do tytułu każdej przeglądanej strony.
+This extension adds a hostname (e.g., example.com) to the title of every page you view.
 
-## Instalacja
+## Installation
 
-1. Wejdź w chrome://extensions/
-2. Włącz tryb deweloperski (prawy górny róg).
-3. Kliknij "Załaduj rozpakowany" i wskaż folder z tym rozszerzeniem.
+1. Go to chrome://extensions/
+2. Enable developer mode (upper right corner).
+3. Click "Load unzipped" and select the folder containing this extension.
 
-## Pliki
-- `manifest.json` – konfiguracja rozszerzenia
-- `content.js` – skrypt modyfikujący tytuł strony
-
-## Ikony
-Jeśli chcesz, dodaj własne pliki ikon: `icon16.png`, `icon48.png`, `icon128.png` (opcjonalne)
+## Files
+- `manifest.json` – extension configuration
+- `content.js` – script that modifies the page title
