@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Hostname in Title",
   "version": "1.0",
-  "description": "Dodaje hostname do tytułu strony.",
+  "description": "Adds hostname to the page title.",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
